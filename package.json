@@ -1,7 +1,7 @@
 {
   "name": "@runapi.ai/z-image-mcp",
-  "version": "0.1.1",
-  "description": "Z Image MCP server for RunAPI — create Z Image AI tasks (text to image), poll status, and check pricing across 1 model with one API key.",
+  "version": "0.1.2",
+  "description": "RunAPI Z Image MCP server for image generation: create tasks, poll results, and check pricing across 1 model from Claude Code, Codex, Cursor, and VS Code.",
   "type": "module",
   "main": "dist/src/index.js",
   "bin": {
@@ -25,12 +25,16 @@
   },
   "keywords": [
     "runapi",
+    "runapi-ai",
     "mcp",
+    "mcp-server",
     "model-context-protocol",
-    "ai",
+    "ai-agents",
+    "claude-code",
+    "cursor",
+    "vscode",
     "z-image",
     "z-image-mcp",
-    "z-image-ai",
     "z-image-api",
     "image-generation",
     "ai-image",
@@ -38,7 +42,7 @@
   ],
   "author": "RunAPI",
   "license": "Apache-2.0",
-  "homepage": "https://runapi.ai",
+  "homepage": "https://runapi.ai/models/z-image",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/runapi-ai/z-image-mcp.git"
