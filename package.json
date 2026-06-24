@@ -1,7 +1,7 @@
 {
   "name": "@runapi.ai/z-image-mcp",
-  "version": "0.1.0",
-  "description": "RunAPI MCP server for one model line: create tasks, poll status, and check pricing with one API key.",
+  "version": "0.1.1",
+  "description": "Z Image MCP server for RunAPI — create Z Image AI tasks (text to image), poll status, and check pricing across 1 model with one API key.",
   "type": "module",
   "main": "dist/src/index.js",
   "bin": {
@@ -27,7 +27,14 @@
     "runapi",
     "mcp",
     "model-context-protocol",
-    "ai"
+    "ai",
+    "z-image",
+    "z-image-mcp",
+    "z-image-ai",
+    "z-image-api",
+    "image-generation",
+    "ai-image",
+    "text-to-image"
   ],
   "author": "RunAPI",
   "license": "Apache-2.0",
