@@ -1,7 +1,0 @@
-{
-  "endpoints": {
-    "z-image/text_to_image": {
-      "unit_price_cents": 1
-    }
-  }
-}

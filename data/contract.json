@@ -6,18 +6,24 @@
     "z-image/text-to-image": {
       "model": "Z Image",
       "endpoint": "text_to_image",
+      "task_type": "asynchronous",
       "models": [
         "z-image"
       ],
       "fields_by_model": {
         "z-image": {
+          "model": {
+            "type": "string"
+          },
           "prompt": {
+            "type": "string",
             "max": 1000,
             "min": 1,
             "length": true,
             "required": true
           },
           "aspect_ratio": {
+            "type": "string",
             "enum": [
               "1:1",
               "4:3",
@@ -26,6 +32,12 @@
               "9:16"
             ],
             "required": true
+          },
+          "enable_safety_checker": {
+            "type": "boolean"
+          },
+          "callback_url": {
+            "type": "string"
           }
         }
       }
